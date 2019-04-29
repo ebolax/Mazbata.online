@@ -641,7 +641,7 @@ $(function()
 
         this.successGame = function ()
         {
-            var share_facebook = this.add.image(0, 0, 'share_facebook').setOrigin(0, 0.5);            
+            var share_facebook = this.add.image(0, 0, 'share_facebook').setOrigin(0, 0.5);
             share_facebook.x = 10;
             share_facebook.y = this.sys.game.config.height / 2;
             share_facebook.depth = 105;
