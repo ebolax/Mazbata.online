@@ -21,7 +21,10 @@ $(function()
             create: create,
             update: update
         },
-        backgroundColor: "#000000"
+        backgroundColor: "#000000",
+        input: {
+			activePointers:3, // for multitouch
+		},
     };
 
     var game = new Phaser.Game(config);
